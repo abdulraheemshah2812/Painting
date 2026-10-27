@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<title>Surprise ❤</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="start">
+  <canvas id="fx"></canvas>
+  <div class="inner">
+    <svg class="hrt" viewBox="0 0 32 29.6"><defs><linearGradient id="hg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff8fb0"></stop><stop offset="1" stop-color="#ff2e63"></stop></linearGradient></defs>
+      <path fill="url(#hg)" d="M23.6,0c-3.4,0-5.7,2.3-7.6,4.6C14.1,2.3,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"></path></svg>
+    <h1 id="sTitle">Apka liye ek chotu sha surprise</h1>
+    <p id="sText">Jaldi sa Button pr click kraye</p>
+    <img id="thumb" alt="">
+    <label class="btn alt" id="pick" for="file" style="display:none">📷 Photo chuno</label>
+    <input type="file" id="file" accept="image/*">
+    <button class="btn" id="go" style="display:none">Idr Tap kraye meri jaaan ❤</button>
+    <p class="hint" id="sHint">(sound on rakhna hehe ❤)</p>
+    <p id="sLoad">Thoda sa intezaar janeman… ❤</p>
+    <p id="sMsg" style="color:#ffb3a0"></p>
+  </div>
+</div>
+<div id="stage">
+  <div id="frame"><div id="wrap">
+    <canvas id="paint"></canvas>
+    <canvas id="brush" class="ov"></canvas>
+    <canvas id="emb" class="ov"></canvas>
+    <div id="vig" class="ov"></div>
+    <div id="gloss" class="ov"></div>
+    <div id="shine" class="ov"></div>
+  </div></div>
+  <div id="plaque"></div>
+  <div id="prog"></div>
+  <div id="bar">
+    <button id="bReplay">🔄 Dobara dekho</button>
+    <button id="bSave">⬇ Painting save karo</button>
+  </div>
+</div>
+<script src="js/main.js"></script>
+</body></html>
